@@ -40,6 +40,8 @@ function addNewNote(text = "") {
 
   delBtn.addEventListener("click", () => {
     note.remove();
+
+    updateLs();
   });
 
   editBtn.addEventListener("click", () => {
